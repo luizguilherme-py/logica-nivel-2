@@ -1,3 +1,5 @@
-numero = int(input("digite um numero"))
+valor = int(input("Digite um valor numérico: "))
 
-print ("o antecessor e", numero-1)
+antecessor = valor - 1
+
+print("O antecessor de", valor, "é", antecessor)
