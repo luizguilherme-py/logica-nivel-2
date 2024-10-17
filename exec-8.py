@@ -1,16 +1,8 @@
-votos_nulos = int(input("Qual o total de votos nulos? "))
+#Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário
 
-votos_validos = int(input("Qual ao total de votos validos? ")) #variaveis 
+salario_atual = float(input("Digite o salário mensal atual do funcionário: "))
+percentual_reajuste = float(input("Digite o percentual de reajuste: "))
 
-votos_brancos = int(input("Qual o total de votos brancos? "))
+novo_salario = salario_atual + (salario_atual * percentual_reajuste / 100)
 
-totalDeVotos = votos_nulos + votos_validos + votos_brancos
-
-porcentagemValidos = (votos_validos / totalDeVotos ) * 100
-print(porcentagemValidos)
-
-porcentagemNulos = ( votos_nulos / totalDeVotos ) * 100 # calculo
-print(porcentagemNulos)
-
-porcentagemBrancos = (votos_brancos / totalDeVotos ) * 100
-print(porcentagemBrancos)
+print("O novo salário do funcionário é: {:.2f}".format(novo_salario))
