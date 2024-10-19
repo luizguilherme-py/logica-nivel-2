@@ -12,4 +12,4 @@ else:
     peso_ideal = None
     print("Sexo inválido. Diite 'M' para masculino ou 'F' para feminino.")
 if peso_ideal is not None:
-    print(f"O peso idela para {nome} é: {peso_ideal:.2f} kg")
+    print(f"O peso ideal para {nome} é: {peso_ideal:.2f} kg")
