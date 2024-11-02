@@ -6,7 +6,7 @@ valor2 = 0
 while valor2 == 0:
     valor2 = float(input("Digite o segundo valor (não pode ser zero): "))
     if valor2 == 0:
-        print("Valor inválido! O segundo valor deve ser diferente de zero. Tente novamente.")
+        print("O segundo valor deve ser diferente de zero. Tente novamente.")
 
 resultado = valor1 / valor2
 print(f"O resultado da divisão de {valor1} por {valor2} é: {resultado:.2f}")
